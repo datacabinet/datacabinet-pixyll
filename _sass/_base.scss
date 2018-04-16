@@ -13,21 +13,21 @@ MIT License http://opensource.org/licenses/MIT
 
 */
 
-html, body {
+.pixyll-dc html,.pixyll-dc body {
   height: auto;
   min-height: 100%;
 }
 
-img {
+.pixyll-dc img {
   max-width: 100%;
 }
 
-em img {
+.pixyll-dc em img {
   max-width: 100%;
   margin-left: 0;
 }
 
-body {
+.pixyll-dc body {
           box-sizing: border-box;
      -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;

@@ -1,38 +1,38 @@
 /* Basscss Utility Typography */
 
-.bold {
+.pixyll-dc .bold {
   font-weight: $bold-font-weight;
 }
 
-.regular {
+.pixyll-dc .regular {
   font-weight: normal;
 }
 
-.italic {
+.pixyll-dc .italic {
   font-style: italic;
 }
 
-.caps {
+.pixyll-dc .caps {
   text-transform: uppercase;
   letter-spacing: .2em;
 }
 
-.left-align {
+.pixyll-dc .left-align {
   text-align: left;
 }
 
-.center {
+.pixyll-dc .center {
   text-align: center;
 }
 
-.right-align {
+.pixyll-dc .right-align {
   text-align: right;
 }
 
-.justify {
+.pixyll-dc .justify {
   text-align: justify;
 }
 
-.nowrap {
+.pixyll-dc .nowrap {
   white-space: nowrap;
 }

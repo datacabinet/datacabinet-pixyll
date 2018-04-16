@@ -1,23 +1,23 @@
-html {
+.pixyll-dc html {
   font-size: $base-font-size;
 }
 
-abbr {
+.pixyll-dc abbr {
   border-bottom: $abbr-border-bottom;
   cursor: help;
 }
 
-p {
+.pixyll-dc p {
   color: #333;
   line-height: 1.5;
 }
 
-small,
-.small {
+.pixyll-dc small,
+.pixyll-dc .small {
   font-size: 0.707rem;
 }
 
-sup {
+.pixyll-dc sup {
   position: relative;
   vertical-align: middle;
   top: -0.9ex;

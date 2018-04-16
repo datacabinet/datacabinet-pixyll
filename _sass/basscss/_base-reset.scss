@@ -1,20 +1,20 @@
-body,
+.pixyll-dc body,
 button {
   margin: 0;
 }
 
-button,
-input,
-select,
-textarea {
+.pixyll-dc button,
+.pixyll-dc input,
+.pixyll-dc select,
+.pixyll-dc textarea {
   font-family: inherit;
   font-size: 100%;
 }
 
-img {
+.pixyll-dc img {
   max-width: 100%;
 }
 
-svg {
+.pixyll-dc svg {
   max-height: 100%;
 }

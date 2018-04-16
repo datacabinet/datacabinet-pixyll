@@ -1,19 +1,19 @@
-pre,
-pre code {
+.pixyll-dc pre,
+.pixyll-dc pre code {
   background-color: transparent;
   border-radius: $pre-border-radius;
 }
 
-pre,
-code {
+.pixyll-dc pre,
+.pixyll-dc code {
   font-family: $monospace-font-family;
 }
 
-code {
+.pixyll-dc code {
   color: #7a7a7a;
 }
 
-pre {
+.pixyll-dc pre {
   padding: 1.125em;
   line-height: 1.11;
   overflow-x: scroll;
@@ -21,12 +21,12 @@ pre {
   background-color: $pre-background-color;
 }
 
-.highlight .p {
+.pixyll-dc .highlight .p {
   font-size: 1.125rem;
   line-height: 1;
 }
 
-pre {
+.pixyll-dc pre {
     counter-reset: line-numbering;
     white-space: pre;
     overflow-x: auto;
@@ -34,11 +34,11 @@ pre {
     word-wrap: inherit;
 }
 
-pre a {
+.pixyll-dc pre a {
     background-image: none;
 }
 
-pre a::before {
+.pixyll-dc pre a::before {
   content: counter(line-numbering);
   counter-increment: line-numbering;
   padding-right: 1em; /* space after numbers */
@@ -57,14 +57,14 @@ pre a::before {
   user-select: none;
 }
 
-pre a:first-of-type::before {
+.pixyll-dc pre a:first-of-type::before {
   padding-top: 10px;
 }
 
-pre a:last-of-type::before {
+.pixyll-dc pre a:last-of-type::before {
   padding-bottom: 10px;
 }
 
-pre a:only-of-type::before {
+.pixyll-dc pre a:only-of-type::before {
   padding: 10px;
 }

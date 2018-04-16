@@ -1,119 +1,119 @@
-.highlight {
+.pixyll-dc .highlight {
   -webkit-text-size-adjust: none;
 }
 
-.highlight .c,
-.highlight .cs,
-.highlight .cm,
-.highlight .cp,
-.highlight .c1 {
+.pixyll-dc .highlight .c,
+.pixyll-dc .highlight .cs,
+.pixyll-dc .highlight .cm,
+.pixyll-dc .highlight .cp,
+.pixyll-dc .highlight .c1 {
   color: $hljs-comment;
   font-style: italic;
 }
 
-.highlight .k,
-.highlight .kc,
-.highlight .kd,
-.highlight .kn,
-.highlight .kr,
-.highlight .kt,
-.highlight .kp {
+.pixyll-dc .highlight .k,
+.pixyll-dc .highlight .kc,
+.pixyll-dc .highlight .kd,
+.pixyll-dc .highlight .kn,
+.pixyll-dc .highlight .kr,
+.pixyll-dc .highlight .kt,
+.pixyll-dc .highlight .kp {
   color: $hljs-keyword;
 }
 
-.highlight .na,
-.highlight .nb,
-.highlight .nc,
-.highlight .no,
-.highlight .nd,
-.highlight .ni,
-.highlight .ne,
-.highlight .nf,
-.highlight .nl,
-.highlight .nn,
-.highlight .nx {
+.pixyll-dc .highlight .na,
+.pixyll-dc .highlight .nb,
+.pixyll-dc .highlight .nc,
+.pixyll-dc .highlight .no,
+.pixyll-dc .highlight .nd,
+.pixyll-dc .highlight .ni,
+.pixyll-dc .highlight .ne,
+.pixyll-dc .highlight .nf,
+.pixyll-dc .highlight .nl,
+.pixyll-dc .highlight .nn,
+.pixyll-dc .highlight .nx {
   color: $hljs-name;
 }
 
-.highlight .mi,
-.highlight .il {
+.pixyll-dc .highlight .mi,
+.pixyll-dc .highlight .il {
   color: $hljs-number;
 }
 
-.highlight .s,
-.highlight .sb,
-.highlight .sc,
-.highlight .sd,
-.highlight .s2,
-.highlight .s3,
-.highlight .sh,
-.highlight .si,
-.highlight .sx,
-.highlight .sr,
-.highlight .ss,
-.highlight .s1 {
+.pixyll-dc .highlight .s,
+.pixyll-dc .highlight .sb,
+.pixyll-dc .highlight .sc,
+.pixyll-dc .highlight .sd,
+.pixyll-dc .highlight .s2,
+.pixyll-dc .highlight .s3,
+.pixyll-dc .highlight .sh,
+.pixyll-dc .highlight .si,
+.pixyll-dc .highlight .sx,
+.pixyll-dc .highlight .sr,
+.pixyll-dc .highlight .ss,
+.pixyll-dc .highlight .s1 {
   color: $hljs-string;
 }
 
-.hljs-title,
-.hljs-id,
-.scss .hljs-preprocessor {
+.pixyll-dc .hljs-title,
+.pixyll-dc .hljs-id,
+.pixyll-dc .scss .hljs-preprocessor {
   color: $hljs-title;
   font-weight: bold;
 }
 
-.highlight .k {
+.pixyll-dc .highlight .k {
   font-weight: normal;
 }
 
-.highlight .nc,
-.highlight .no {
+.pixyll-dc .highlight .nc,
+.pixyll-dc .highlight .no {
   color: $hljs-type;
 }
 
-.highlight .o {
+.pixyll-dc .highlight .o {
   color: $hljs-tag;
   font-weight: normal;
 }
 
-.highlight .nb {
+.pixyll-dc .highlight .nb {
   color: $hljs-attribute;
 }
 
-.highlight .sr {
+.pixyll-dc .highlight .sr {
   color: $hljs-regexp;
 }
 
-.highlight .ss {
+.pixyll-dc .highlight .ss {
   color: $hljs-symbol;
 }
 
-.hljs-built_in {
+.pixyll-dc .hljs-built_in {
   color: $hljs-built-in;
 }
 
-.hljs-preprocessor,
-.hljs-pragma,
-.hljs-pi,
-.hljs-doctype,
-.hljs-shebang,
-.hljs-cdata {
+.pixyll-dc .hljs-preprocessor,
+.pixyll-dc .hljs-pragma,
+.pixyll-dc .hljs-pi,
+.pixyll-dc .hljs-doctype,
+.pixyll-dc .hljs-shebang,
+.pixyll-dc .hljs-cdata {
   color: $hljs-preprocessor;
   font-weight: bold;
 }
 
-.hljs-deletion {
+.pixyll-dc .hljs-deletion {
   background: $hljs-deletion;
 }
 
-.hljs-addition {
+.pixyll-dc .hljs-addition {
   background: $hljs-addition;
 }
 
-.diff .hljs-change {
+.pixyll-dc .diff .hljs-change {
   background: $hljs-change;
 }
 
-.hljs-chunk {
+.pixyll-dc .hljs-chunk {
   color: $hljs-chunk;
 }

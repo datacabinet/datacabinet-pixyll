@@ -1,8 +1,8 @@
-.clearfix:before, .clearfix:after {
+.pixyll-dc .clearfix:before, .pixyll-dc .clearfix:after {
   content: ' ';
   display: table;
 }
 
-.clearfix:after {
+.pixyll-dc .clearfix:after {
   clear: both;
 }

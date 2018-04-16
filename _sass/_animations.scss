@@ -5,31 +5,31 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
 Copyright (c) 2014 Daniel Eden
 */
 
-.animated {
+.pixyll-dc .animated {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
 
-.animated.infinite {
+.pixyll-dc .animated.infinite {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
 
-.animated.hinge {
+.pixyll-dc .animated.hinge {
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
 }
 
 @-webkit-keyframes fadeInDown {
-  0% {
+0% {
     opacity: 0;
     -webkit-transform: translateY(-20px);
             transform: translateY(-20px);
   }
 
-  100% {
+100% {
     opacity: 1;
     -webkit-transform: translateY(0);
             transform: translateY(0);
@@ -37,7 +37,7 @@ Copyright (c) 2014 Daniel Eden
 }
 
 @keyframes fadeInDown {
-  0% {
+0% {
     opacity: 0;
 
     -webkit-transform: translateY(-20px) translate3d(0, 0, 0);
@@ -45,7 +45,7 @@ Copyright (c) 2014 Daniel Eden
             transform: translateY(-20px) translate3d(0, 0, 0);
   }
 
-  100% {
+100% {
     opacity: 1;
 
     -webkit-transform: translateY(0) translate3d(0, 0, 0);
@@ -54,7 +54,7 @@ Copyright (c) 2014 Daniel Eden
   }
 }
 
-.fade-in-down {
+.pixyll-dc .fade-in-down {
   -webkit-animation-name: fadeInDown;
           animation-name: fadeInDown;
 }

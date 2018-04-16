@@ -1,17 +1,17 @@
 /* Basscss Base Typography */
 
-body {
+.pixyll-dc body {
   font-family: $font-family;
   line-height: $line-height;
   font-size: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.pixyll-dc h1,
+.pixyll-dc h2,
+.pixyll-dc h3,
+.pixyll-dc h4,
+.pixyll-dc h5,
+.pixyll-dc h6 {
   font-family: $heading-font-family;
   font-weight: $heading-font-weight;
   line-height: $heading-line-height;
@@ -19,39 +19,39 @@ h6 {
   margin-bottom: .5em;
 }
 
-p,
-dl,
-ol,
-ul {
+.pixyll-dc p,
+.pixyll-dc dl,
+.pixyll-dc ol,
+.pixyll-dc ul {
   font-size: $h4;
   margin-top: 0;
   margin-bottom: $space-2;
 }
 
-ol,
-ul {
+.pixyll-dc ol,
+.pixyll-dc ul {
   padding-left: $space-3;
 }
 
-pre,
-code,
-samp {
+.pixyll-dc pre,
+.pixyll-dc code,
+.pixyll-dc samp {
   font-family: $monospace-font-family;
   font-size: inherit;
 }
 
-pre {
+.pixyll-dc pre {
   margin-top: 0;
   margin-bottom: $space-2;
   overflow-x: scroll;
 }
 
-hr {
+.pixyll-dc hr {
   margin-top: $space-3;
   margin-bottom: $space-3;
 }
 
-blockquote {
+.pixyll-dc blockquote {
   margin-top: $space-3;
   margin-bottom: $space-3;
   margin-left: 0;
@@ -59,43 +59,43 @@ blockquote {
   padding-right: $space-2;
 }
 
-blockquote,
-blockquote p {
+.pixyll-dc blockquote,
+.pixyll-dc blockquote p {
   font-size: $h3;
   font-style: italic;
 }
 
-h1,
-.h1 {
+.pixyll-dc h1,
+.pixyll-dc .h1 {
   font-size: $h1;
 }
 
-h2,
-.h2 {
+.pixyll-dc h2,
+.pixyll-dc .h2 {
   font-size: $h2;
 }
 
-h3,
-.h3 {
+.pixyll-dc h3,
+.pixyll-dc .h3 {
   font-size: $h3;
 }
 
-h4,
-.h4 {
+.pixyll-dc h4,
+.pixyll-dc .h4 {
   font-size: $h4;
 }
 
-h5,
-.h5 {
+.pixyll-dc h5,
+.pixyll-dc .h5 {
   font-size: $h5;
 }
 
-h6,
-.h6 {
+.pixyll-dc h6,
+.pixyll-dc .h6 {
   font-size: $h6;
 }
 
-.list-reset {
+.pixyll-dc .list-reset {
   list-style: none;
   padding-left: 0;
 }

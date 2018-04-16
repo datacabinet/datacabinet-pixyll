@@ -1,40 +1,40 @@
 
-.posts {
+.pixyll-dc .posts {
   margin: 0;
 }
 
-.posts .post {
+.pixyll-dc .posts .post {
   margin-bottom: 0.75em;
   border-bottom: thin solid #f3f3f3;
 }
 
-.posts .post:last-child {
+.pixyll-dc .posts .post:last-child {
   border-bottom: none;
   margin-bottom: .375em;
   padding-bottom: 0;
 }
 
-.post-link .post-title {
+.pixyll-dc .post-link .post-title {
   margin-top: 0;
   font-weight: 600;
   color: #333;
 }
 
-.post-footer {
+.pixyll-dc .post-footer {
   @extend .italic;
 
   margin-top: .75rem;
   text-align: center;
 }
 
-.post-footer .avatar {
+.pixyll-dc .post-footer .avatar {
   margin: 2rem 0;
   width: 100px;
   border-radius: 50%;
 }
 
-.meta,
-.post-meta {
+.pixyll-dc .meta,
+.pixyll-dc .post-meta {
   width: auto;
   font-weight: 300;
   margin: 0;
@@ -43,6 +43,6 @@
   font-style: italic;
 }
 
-.related-post-title {
+.pixyll-dc .related-post-title {
   border-bottom: thin solid #f3f3f3;
 }

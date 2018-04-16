@@ -1,26 +1,26 @@
 /* Basscss Color Base */
 
-body {
+.pixyll-dc body {
   color: $dark-gray;
   background-color: white;
 }
 
-a {
+.pixyll-dc a {
   color: $blue;
   text-decoration: none;
 }
 
-a:hover {
+.pixyll-dc a:hover {
   text-decoration: underline;
 }
 
-pre,
-code {
+.pixyll-dc pre,
+.pixyll-dc code {
   background-color: $lighter-gray;
   border-radius: $border-radius;
 }
 
-hr {
+.pixyll-dc hr {
   border: 0;
   border-bottom-style: solid;
   border-bottom-width: $border-width;

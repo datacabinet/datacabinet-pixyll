@@ -1,4 +1,4 @@
-a {
+.pixyll-dc a {
   color: $link-color;
   background-image: linear-gradient(to top,
     rgba(0,0,0,0) 13%,
@@ -9,9 +9,9 @@ a {
   text-shadow: white 1px 0px 0px, white -1px 0px 0px;
 }
 
-a:hover,
-a:focus,
-a:active {
+.pixyll-dc a:hover,
+.pixyll-dc a:focus,
+.pixyll-dc a:active {
   border: 0;
   color: $link-hover-color;
   text-decoration: none;
@@ -25,27 +25,27 @@ a:active {
 }
 
 // Correct issues with buttons
-button,
-.button {
+.pixyll-dc button,
+.pixyll-dc .button {
   text-shadow: none;
   background-image: none;
 }
 
-.button:hover,
-.button:focus,
-.button:active {
+.pixyll-dc .button:hover,
+.pixyll-dc .button:focus,
+.pixyll-dc .button:active {
   color: white;
   text-shadow: none;
   background-image: none;
 }
 
-.anchorjs-link {
+.pixyll-dc .anchorjs-link {
     text-shadow: none;
     background-image: none;
 }
-.anchorjs-link:hover,
-.anchorjs-link:focus,
-.anchorjs-link:active{
+.pixyll-dc .anchorjs-link:hover,
+.pixyll-dc .anchorjs-link:focus,
+.pixyll-dc .anchorjs-link:active{
     border: 0;
     color: $link-hover-color;
     text-shadow: none;

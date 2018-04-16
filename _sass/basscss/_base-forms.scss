@@ -1,26 +1,26 @@
 /* Basscss Base Forms */
 
-input,
-select,
-textarea,
-fieldset {
+.pixyll-dc input,
+.pixyll-dc select,
+.pixyll-dc textarea,
+.pixyll-dc fieldset {
   font-size: $form-field-font-size;
   margin-top: 0;
   margin-bottom: $space-1;
 }
 
-input[type=text],
-input[type=datetime],
-input[type=datetime-local],
-input[type=email],
-input[type=month],
-input[type=number],
-input[type=password],
-input[type=search],
-input[type=tel],
-input[type=time],
-input[type=url],
-input[type=week] {
+.pixyll-dc input[type=text],
+.pixyll-dc input[type=datetime],
+.pixyll-dc input[type=datetime-local],
+.pixyll-dc input[type=email],
+.pixyll-dc input[type=month],
+.pixyll-dc input[type=number],
+.pixyll-dc input[type=password],
+.pixyll-dc input[type=search],
+.pixyll-dc input[type=tel],
+.pixyll-dc input[type=time],
+.pixyll-dc input[type=url],
+.pixyll-dc input[type=week] {
   box-sizing: border-box;
   height: $form-field-height;
   padding: $form-field-padding-y $form-field-padding-x;
@@ -28,30 +28,30 @@ input[type=week] {
   -webkit-appearance: none;
 }
 
-select {
+.pixyll-dc select {
   box-sizing: border-box;
   line-height: 1.75;
   padding: $form-field-padding-y $form-field-padding-x;
 }
 
-select:not([multiple]) {
+.pixyll-dc select:not([multiple]) {
   height: $form-field-height;
   vertical-align: middle;
 }
 
-textarea {
+.pixyll-dc textarea {
   box-sizing: border-box;
   line-height: 1.75;
   padding: $form-field-padding-y $form-field-padding-x;
 }
 
-.fieldset-reset {
+.pixyll-dc .fieldset-reset {
   padding: 0;
   margin-left: 0;
   margin-right: 0;
   border: 0;
 }
 
-.fieldset-reset legend {
+.pixyll-dc .fieldset-reset legend {
   padding: 0;
 }

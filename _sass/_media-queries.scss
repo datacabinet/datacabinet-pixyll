@@ -1,63 +1,63 @@
 @media screen and (min-width: $viewport-small) {
-  html {
+.pixyll-dc   html {
     font-size: 16px;
   }
 
-  h1,
-  .h1 {
+.pixyll-dc   h1,
+.pixyll-dc   .h1 {
     font-size: $h1;
   }
 
-  .site-header {
+.pixyll-dc   .site-header {
     text-align: left;
   }
 
-  .site-nav {
+.pixyll-dc   .site-nav {
     margin-top: 0;
   }
 
-  .site-header a {
+.pixyll-dc   .site-header a {
     font-size: $h4;
   }
 
-  .site-header .site-title {
+.pixyll-dc   .site-header .site-title {
     font-size: $h3;
     float: left;
   }
 
-  .site-header .site-nav {
+.pixyll-dc   .site-header .site-nav {
     float: right;
     margin-top: .25rem;
   }
 
-  blockquote {
+.pixyll-dc   blockquote {
     margin-left: $space-3;
     padding: $space-3;
   }
 
-  .social-icons-left {
+.pixyll-dc   .social-icons-left {
     text-align: left;
   }
 
-  .social-icons-right {
+.pixyll-dc   .social-icons-right {
     text-align: right;
   }
 }
 
 @media screen and (min-width: $viewport-medium) {
-  html {
+.pixyll-dc   {
     font-size: 18px;
   }
 }
 
 @media screen and (min-width: $viewport-large) {
-  html {
+.pixyll-dc   {
     font-size: 20px;
   }
 }
 
 @media screen and (min-width: $viewport-large + 14) {
-  em img {
+.pixyll-dc   em img {
     max-width: $measure-width + 14;
     margin-left: -7em;
   }
