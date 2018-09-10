@@ -1,5 +1,5 @@
 # Site settings
-title:       Pixyll
+title:       Blog
 email:       info@datacabinet.systems
 author:      Pankaj Kumar
 description: "DataCabinet demo place."
@@ -15,7 +15,7 @@ google_verification:
 # Use either direct GA implementation or set up GTM account
 # - using both will skew your data (leave blank to not use at all)
 google_analytics:
-google_tag_manager:
+google_tag_manager: GTM-WF62G2Q
 # Bing services
 bing_verification:
 
@@ -25,7 +25,7 @@ show_related_posts:   false
 show_post_footers:    false
 show_social_icons:    false
 ajaxify_contact_form: false
-enable_mathjax: false
+enable_mathjax: true 
 extended_fonts: false
 enable_anchorjs: false
 # Preview image for social media aka og:image and twitter:image
@@ -46,8 +46,8 @@ txtpen_sitename:
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
-facebook_comments:
-facebook_appid:
+facebook_comments: true
+facebook_appid: 2141254209531222
 facebook_comments_number: 10
 
 # Social icons

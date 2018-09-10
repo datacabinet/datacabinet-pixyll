@@ -3,7 +3,8 @@
   <div class="left">
     {% if paginator.previous_page %}
       {% if paginator.page == 2 %}
-        <a class="pagination-item" href="{{ site.baseurl }}/blog">{{ site.text.pagination.newer }}</a>
+      <!-- <a class="pagination-item" href="{{ site.baseurl }}/blog">{{ site.text.pagination.newer }}</a> -->
+        <a class="pagination-item" href="/blog/{{ paginator.previous_page_path }}">{{ site.text.pagination.newer }}</a>
       {% else %}
         <a class="pagination-item" href="/blog/{{ paginator.previous_page_path }}">{{ site.text.pagination.newer }}</a>
       {% endif %}
